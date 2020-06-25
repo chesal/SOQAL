@@ -1133,7 +1133,7 @@ def get_memory():
     return free_memory
 
 def main(_):
-  memory_limit():
+  memory_limit()
   tf.logging.set_verbosity(tf.logging.INFO)
 
   bert_config = modeling.BertConfig.from_json_file(FLAGS.bert_config_file)
